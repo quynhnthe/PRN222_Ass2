@@ -1,0 +1,382 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\views\\admin\\manageuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\views\\admin\\manageuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\models\\systemaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\models\\systemaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\views\\news\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\views\\news\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\viewmodel\\newsarticleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\viewmodel\\newsarticleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\viewmodel\\commentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\viewmodel\\commentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\repositories\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\repositories\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\hubs\\commenthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\hubs\\commenthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\models\\funewsmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\models\\funewsmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\hubs\\newshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\hubs\\newshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\repositories\\inewsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\repositories\\inewsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|c:\\users\\user\\documents\\01. fpt\\08. termno_8\\3.prn222\\baybi\\newsmanagementsystem\\newsmanagementsystem_assigment01\\repositories\\newsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F732E4A0-4595-4488-B4FF-BB833A01245B}|NewsManagementSystem_Assigment01\\NewsManagementSystem_Assigment01.csproj|solutionrelative:newsmanagementsystem_assigment01\\repositories\\newsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SystemAccount.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Models\\SystemAccount.cs",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\Models\\SystemAccount.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Models\\SystemAccount.cs",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\Models\\SystemAccount.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T20:02:10.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManageUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Views\\Admin\\ManageUser.cshtml",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\Views\\Admin\\ManageUser.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Views\\Admin\\ManageUser.cshtml",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\Views\\Admin\\ManageUser.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAMwB8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T20:00:42.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA5wEQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:59:17.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Views\\News\\Details.cshtml",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\Views\\News\\Details.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Views\\News\\Details.cshtml",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\Views\\News\\Details.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAE8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T19:48:56.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NewsArticleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\ViewModel\\NewsArticleViewModel.cs",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\ViewModel\\NewsArticleViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\ViewModel\\NewsArticleViewModel.cs",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\ViewModel\\NewsArticleViewModel.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:14:28.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CommentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\ViewModel\\CommentViewModel.cs",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\ViewModel\\CommentViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\ViewModel\\CommentViewModel.cs",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\ViewModel\\CommentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:14:09.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\Controllers\\CommentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:53:46.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NewsArticle.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Models\\NewsArticle.cs",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\Models\\NewsArticle.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Models\\NewsArticle.cs",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\Models\\NewsArticle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:53:14.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Models\\Comment.cs",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\Models\\Comment.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:37:48.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Services\\CommentService.cs",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\Services\\CommentService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Services\\CommentService.cs",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\Services\\CommentService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:10:44.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Repositories\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\Repositories\\CommentRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Repositories\\CommentRepository.cs",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\Repositories\\CommentRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBAAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:03:41.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NewsService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Services\\NewsService.cs",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\Services\\NewsService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Services\\NewsService.cs",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\Services\\NewsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:32:05.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Repositories\\ICommentRepository.cs",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\Repositories\\ICommentRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Repositories\\ICommentRepository.cs",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\Repositories\\ICommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:03:08.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CommentHub.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Hubs\\CommentHub.cs",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\Hubs\\CommentHub.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Hubs\\CommentHub.cs",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\Hubs\\CommentHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:01:25.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FunewsManagementContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Models\\FunewsManagementContext.cs",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\Models\\FunewsManagementContext.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Models\\FunewsManagementContext.cs",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\Models\\FunewsManagementContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:22:48.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAiwJMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T17:47:03.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T17:42:47.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NewsHub.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Hubs\\NewsHub.cs",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\Hubs\\NewsHub.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Hubs\\NewsHub.cs",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\Hubs\\NewsHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:58:09.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "INewsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Repositories\\INewsRepository.cs",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\Repositories\\INewsRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Repositories\\INewsRepository.cs",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\Repositories\\INewsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:38:10.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NewsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Repositories\\NewsRepository.cs",
+              "RelativeDocumentMoniker": "NewsManagementSystem_Assigment01\\Repositories\\NewsRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\01. FPT\\08. TermNo_8\\3.PRN222\\Baybi\\NewsManagementSystem\\NewsManagementSystem_Assigment01\\Repositories\\NewsRepository.cs",
+              "RelativeToolTip": "NewsManagementSystem_Assigment01\\Repositories\\NewsRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:35:18.326Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 150,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

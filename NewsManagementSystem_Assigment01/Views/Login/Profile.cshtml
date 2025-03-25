@@ -1,0 +1,36 @@
+﻿@model NewsManagementSystem_Assigment01.Models.SystemAccount
+
+<div>
+    <h4>Personal Information</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            <th>Username</th>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AccountName)
+        </dd>
+        <dt class="col-sm-2">
+            <th>Email</th>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AccountEmail)
+        </dd>
+        <dt class="col-sm-2">
+            <th>Role (ID)</th>
+        </dt>
+        <dd class="col-sm-10">
+            @(Model.AccountRole == 1 ? "Staff" : Model.AccountRole == 2 ? "Lecturer" : "Unknown")
+        </dd>
+        <dt class="col-sm-2">
+            <th>Account Status</th>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IsActive)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.AccountId">Edit</a> |
+    <a asp-action="Index" asp-controller="Home">Back to List</a>
+</div>

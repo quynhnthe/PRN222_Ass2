@@ -1,0 +1,179 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using System.Security.Claims
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FUNews</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/NewsManagementSystem_Assigment01.styles.css" asp-append-version="true" />
+    <!-- Thư viện toastr -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet"/>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">FUNews</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+
+                        @if (User.FindFirstValue(ClaimTypes.Role) == "1")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Login" asp-action="Profile">Profile</a>
+                            </li>
+                        }
+
+                        @if (User.FindFirstValue(ClaimTypes.Role) == "1")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="News" asp-action="Create">Create News Article</a>
+                            </li>
+                        }
+                        @if (User.FindFirstValue(ClaimTypes.Role) == "1")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="News" asp-action="History">News History</a>
+                            </li>
+                        }
+                        @if (User.FindFirstValue(ClaimTypes.Role) == "Admin")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Admin" asp-action="ManageUser">Manage Users</a>
+                            </li>
+                        }
+                        @if (User.FindFirstValue(ClaimTypes.Role) == "Admin")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Login" asp-action="Register">Register New User</a>
+                            </li>
+                        }
+                        @if (User.FindFirstValue(ClaimTypes.Role) == "Admin")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Admin" asp-action="ReportStatistics">Statistics</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+                <ul class="navbar-nav">
+                    @if (Context.User.Identity.Name != null)
+                    {
+                        <li class="nav-item">
+                            <span class="nav-link">Hello, @Context.User.Identity.Name!</span>
+                        </li>
+                        <li class="nav-item">
+                            <form class="form-inline" asp-controller="Login" asp-action="LogOut" method="post">
+                                <button type="submit" class="nav-link btn btn-link text-dark">Log Out</button>
+                            </form>
+                        </li>
+                    } else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Login" asp-action="Index">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Login" asp-action="Register">Register</a>
+                        </li>
+                    }
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - FUNews - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    
+     @* <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script> *@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+
+<script>
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/newsHub")
+        .configureLogging(signalR.LogLevel.Information)
+        .build();
+
+    connection.start().catch(err => console.error(err.toString()));
+
+    connection.on("ReceiveNewsUpdate", (action, newsId) => {
+        let message = `A news article was ${action}: ID ${newsId}`;
+        toastr.info(message); // Hiển thị thông báo
+        location.reload(); // Tải lại trang để cập nhật nội dung
+    });
+
+    connection.on("ReceiveNotification", (username, title) => {
+        showToast(`${username} đã tạo bài viết "${title}"`);
+    });
+
+    function showToast(message) {
+        const toast = document.createElement("div");
+        toast.className = "toast";
+        toast.innerText = message;
+        document.body.appendChild(toast);
+          // Đợi một chút trước khi thêm class 'show' để kích hoạt hiệu ứng
+    requestAnimationFrame(() => {
+        toast.classList.add("show");
+    });
+
+    // Sau 5 giây, xóa class 'show' trước khi xóa phần tử
+    setTimeout(() => {
+        toast.classList.remove("show");
+        setTimeout(() => toast.remove(), 500); // Xóa sau hiệu ứng mờ dần
+    }, 5000);
+    }
+</script>
+<style>
+    .toast {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        z-index: 1000;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    .toast.show {
+        opacity: 1;
+    }
+
+    .toast.hide {
+        opacity: 0;
+    }
+</style>
+ 
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+

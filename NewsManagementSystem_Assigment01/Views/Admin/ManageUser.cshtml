@@ -1,0 +1,68 @@
+﻿@model NewsManagementSystem_Assigment01.ViewModel.ListUserViewModel
+
+<div class="news-list">
+    <h1>User List</h1>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">ID</th>
+                <th scope="col">Username</th>
+                <th scope="col">Email</th>
+                <th scope="col">Role</th>
+                <th scope="col">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model?.ListUser.Count() != 0)
+            {
+                int index = 1;
+                foreach (var item in Model?.ListUser)
+                {
+                    <tr>
+                        <th scope="row">@index</th>
+                        <td>@item.AccountId</td>
+                        <td>@item.AccountName</td>
+                        <td>@item.AccountEmail</td>
+                        <td>
+                            @(item.AccountRole == 1 ? "Staff" :
+                              item.AccountRole == 2 ? "Lecturer" : "Unknown")
+                        </td>
+                        <td>
+                            <span class="badge @(item.IsActive.GetValueOrDefault() ? "bg-success" : "bg-danger")">
+                                @(item.IsActive.GetValueOrDefault() ? "Active" : "Inactive")
+                            </span>
+                        </td>
+                        <td>
+                            <form asp-action="ToggleAccountStatus" method="post">
+                                <input type="hidden" name="id" value="@item.AccountId" />
+                                <button type="submit" class="btn btn-sm @(item.IsActive.GetValueOrDefault() ? "btn-danger" : "btn-success")">
+                                    @(item.IsActive.GetValueOrDefault() ? "Deactivate" : "Activate")
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                    index++;
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3" class="text-center">No users available.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    .news-list {
+        margin: 20px auto;
+        max-width: 800px;
+    }
+
+        .news-list h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+</style>
