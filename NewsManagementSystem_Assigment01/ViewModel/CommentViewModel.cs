@@ -2,9 +2,9 @@
 {
     public class CommentViewModel
     {
-        public int PostId { get; set; }
-        public string UserId { get; set; }
-        public string Content { get; set; }
+        public string NewsArticleId { get; set; } = null!;
+        public short UserId { get; set; }
+        public string Content { get; set; } = null!;
     }
 
 }

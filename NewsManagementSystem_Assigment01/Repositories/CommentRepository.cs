@@ -24,9 +24,26 @@ namespace NewsManagementSystem_Assigment01.Repositories
             return comment;
         }
 
-        public async Task<Comment> UpdateCommentAsync(Comment comment)
+        public async Task<Comment> UpdateCommentAsync(int commentId, string newContent)
         {
-            _context.Comments.Update(comment);
+            var comment = await _context.Comments
+                .Include(c => c.User) // Tải thông tin User để kiểm tra quyền
+                .Include(c => c.NewsArticle) // Tải thông tin NewsArticle để đảm bảo NewsArticleId không bị NULL
+                .FirstOrDefaultAsync(c => c.CommentId == commentId);
+
+            if (comment == null)
+            {
+                return null;
+            }
+
+            // Chỉ cập nhật các thuộc tính cần thiết
+            comment.Content = newContent;
+            comment.UpdatedAt = DateTime.UtcNow;
+
+            // Đánh dấu chỉ các thuộc tính đã thay đổi
+            _context.Entry(comment).Property(c => c.Content).IsModified = true;
+            _context.Entry(comment).Property(c => c.CreatedAt).IsModified = true;
+
             await _context.SaveChangesAsync();
             return comment;
         }

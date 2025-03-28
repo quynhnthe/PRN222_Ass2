@@ -8,7 +8,7 @@
     {
         Task<List<Comment>> GetCommentsByPostIdAsync(string postId);
         Task<Comment> AddCommentAsync(Comment comment);
-        Task<Comment> UpdateCommentAsync(Comment comment);
+        Task<Comment> UpdateCommentAsync(int commentId, string newContent);
         Task<bool> DeleteCommentAsync(int id);
     }
 

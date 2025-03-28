@@ -1,5 +1,6 @@
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\appsettings.json
+C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\libman.json
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\NewsManagementSystem_Assigment01.staticwebassets.runtime.json
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\NewsManagementSystem_Assigment01.exe
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\NewsManagementSystem_Assigment01.deps.json
@@ -11,10 +12,17 @@ C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Humanizer.dll
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\MailKit.dll
+C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.AspNetCore.Connections.Abstractions.dll
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Common.dll
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.Build.dll
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.Build.Framework.dll
@@ -43,6 +51,7 @@ C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.Extensions.Features.dll
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
@@ -275,12 +284,3 @@ C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\obj\Debug\net8.0\NewsManagementSystem_Assigment01.pdb
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\obj\Debug\net8.0\NewsManagementSystem_Assigment01.genruntimeconfig.cache
 C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\obj\Debug\net8.0\ref\NewsManagementSystem_Assigment01.dll
-C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\libman.json
-C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.AspNetCore.Connections.Abstractions.dll
-C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Client.dll
-C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Common.dll
-C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.dll
-C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
-C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Common.dll
-C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
-C:\Users\user\Documents\01. FPT\08. TermNo_8\3.PRN222\Baybi\NewsManagementSystem\NewsManagementSystem_Assigment01\bin\Debug\net8.0\Microsoft.Extensions.Features.dll

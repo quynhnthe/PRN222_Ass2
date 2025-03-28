@@ -23,7 +23,7 @@ namespace NewsManagementSystem_Assigment01.Services
 
         public async Task<Comment> EditCommentAsync(int id, string content)
         {
-            var comment = await _commentRepository.UpdateCommentAsync(new Comment { CommentId = id, Content = content });
+            var comment = await _commentRepository.UpdateCommentAsync(id, content);
             return comment;
         }
 

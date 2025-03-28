@@ -34,6 +34,8 @@ namespace NewsManagementSystem_Assigment01
             builder.Services.AddScoped<CategoryService>();
             builder.Services.AddScoped<ITagRepository, TagRepository>();
             builder.Services.AddScoped<TagService>();
+            builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+            builder.Services.AddScoped<CommentService>();
 
             builder.Services.AddTransient<SendMailService>();
             builder.Services.AddSignalR();
@@ -80,6 +82,7 @@ namespace NewsManagementSystem_Assigment01
             app.UseAuthentication(); // Nếu có xác thực
             app.UseAuthorization();  // Thêm dòng này
             app.MapHub<NewsHub>("/newsHub");
+            app.MapHub<CommentHub>("/commentHub");
 
 
 

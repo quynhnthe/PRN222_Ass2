@@ -35,6 +35,8 @@ namespace NewsManagementSystem_Assigment01.Repositories
         {
             return _context.NewsArticles
                            .Include(n => n.Category )
+                           .Include(c => c.Comments)
+                           .ThenInclude(u => u.User)
                            .Include(x => x.CreatedBy)// Nạp thông tin Category
                            .FirstOrDefault(n => n.NewsArticleId == id);
         }

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.SignalR;
 using NewsManagementSystem_Assigment01.Hubs;
 using NewsManagementSystem_Assigment01.Models;
 using NewsManagementSystem_Assigment01.Services;
+using NewsManagementSystem_Assigment01.ViewModel;
 
 namespace NewsManagementSystem_Assigment01.Controllers
 {
@@ -23,28 +24,52 @@ namespace NewsManagementSystem_Assigment01.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Comment comment)
+        public async Task<IActionResult> Create(CommentViewModel commentViewModel)
         {
             if (ModelState.IsValid)
             {
+                var comment = new Comment
+                {
+                    NewsArticleId = commentViewModel.NewsArticleId,
+                    UserId = commentViewModel.UserId,
+                    Content = commentViewModel.Content,
+                    CreatedAt = DateTime.UtcNow
+                };
                 var newComment = await _commentService.CreateCommentAsync(comment);
-                await _hubContext.Clients.Group($"post-{comment.NewsArticleId}")
-                    .SendAsync("ReceiveComment", comment.UserId, comment.Content);
-                return RedirectToAction("Details", "Post", new { id = comment.NewsArticleId });
+                //await _hubContext.Clients.Group($"post-{comment.NewsArticleId}")
+                //    .SendAsync("ReceiveComment", comment.UserId, comment.Content);
+                return RedirectToAction("Details", "News", new { id = commentViewModel.NewsArticleId });
             }
-            return View(comment);
+        return RedirectToAction("Details", "News", new { id = commentViewModel.NewsArticleId });
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, string content)
         {
-            var updatedComment = await _commentService.EditCommentAsync(id, content);
-            if (updatedComment == null)
+            if (string.IsNullOrEmpty(content))
             {
-                return NotFound();
+                TempData["ErrorMessage"] = "Comment content cannot be empty.";
+                return RedirectToAction("Details", "News", new { id });
             }
-            return RedirectToAction("Details", "Post", new { id = updatedComment.NewsArticleId });
+
+            try
+            {
+                var updatedComment = await _commentService.EditCommentAsync(id, content);
+                if (updatedComment == null)
+                {
+                    TempData["ErrorMessage"] = "Comment not found or you don't have permission to edit it.";
+                    return RedirectToAction("Details", "News", new { id });
+                }
+
+                TempData["SuccessMessage"] = "Comment updated successfully.";
+                return RedirectToAction("Details", "News", new { id = updatedComment.NewsArticleId });
+            } catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = "An error occurred while updating the comment.";
+                Console.WriteLine($"Error in Edit action: {ex.Message}");
+                return RedirectToAction("Details", "News", new { id });
+            }
         }
 
         [HttpPost]
